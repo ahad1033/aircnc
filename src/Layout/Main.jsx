@@ -1,8 +1,9 @@
+import Navbar from "../Components/Shared/Navbar/Navbar";
 
 const Main = () => {
     return (
         <div>
-            <h2>Hellor aircnc</h2>
+            <Navbar />
         </div>
     );
 };
