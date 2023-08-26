@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <>
           <Categories />
-          <Rooms />  
+          <Rooms />
         </>
     );
 };

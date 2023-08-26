@@ -3,6 +3,7 @@ import qs from 'query-string'
 
 const CategoryBox = ({ label, icon: Icon }) => {
 
+    // eslint-disable-next-line no-unused-vars
     const [params, setParams] = useSearchParams()
     const navigate = useNavigate()
 

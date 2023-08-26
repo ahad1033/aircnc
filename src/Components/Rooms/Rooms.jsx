@@ -5,6 +5,7 @@ import { useSearchParams } from "react-router-dom";
 
 const Rooms = () => {
 
+    // eslint-disable-next-line no-unused-vars
     const [params, setParams] = useSearchParams()
     const category = params.get('category')
     const [rooms, setRooms] = useState([]);
