@@ -10,7 +10,7 @@ const Rooms = () => {
     const category = params.get('category')
     const [rooms, setRooms] = useState([]);
     useEffect(() => {
-        fetch('./rooms.json')
+        fetch('http://localhost:5000/rooms')
         .then(res => res.json())
         .then(data => {
             if(category) {
